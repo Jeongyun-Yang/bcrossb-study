@@ -1,19 +1,25 @@
 .nav{
-    margin: auto;
-    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-img{
   width: 180px;
+  padding-left: 44px;
 
 }
 
 .nav-menu{
+  display: block;
+  width: 50%;
+  text-align-last:justify ;
   font-size: 20px;
 
 }
 .nav-btn{
-  width: 100％;
+  width: 170px;
   height: 55px;
   font-size: 18px;
   color: #F4F3E9;
